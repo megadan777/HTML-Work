@@ -1,0 +1,25 @@
+/* class-id.css */
+
+.p {
+    background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#no2 {
+      color: blue;
+      font-size: 36px;
+
+}
+
+#no3 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+#no4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+
+}
