@@ -1,0 +1,19 @@
+/* basic.css */
+
+div {
+    color: gold;
+  }
+  
+  
+  .alert-text {
+    color: red;
+  }
+
+
+  #title {
+    background-color: red;
+  }
+
+  .subsection.header {
+    color: red;
+  }
