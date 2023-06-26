@@ -1,0 +1,21 @@
+
+.button {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 40px;
+  height: 100px;
+  font-weight: bold;
+}
+
+body {
+  background-color: lightcyan;
+  color: black;
+}
+
+#main-head {
+  color: blueviolet;
+  font-size: 70px;
+  font-weight: bold;
+  border: 2px; 
+  border-style: solid;
+  text-align: center;
+}
