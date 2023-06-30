@@ -8,14 +8,40 @@
 
 body {
   background-color: lightcyan;
-  color: black;
+
+  width: 600px;
+  margin: 16px auto;
+}
+
+h1 {
+  padding: 8px auto;
+  margin: 16px 16px;
 }
 
 #main-head {
   color: blueviolet;
   font-size: 70px;
   font-weight: bold;
-  border: 2px; 
+  border: 0px; 
   border-style: solid;
   text-align: center;
+}
+
+
+.recipes {
+  text-align: center;
+  border-style: inset;
+  border-color: black;
+  background-color: lightcyan;
+  color: black;
+  padding: 8px auto;
+  margin: 16px 16px;
+}
+
+.button {
+  border-radius: 5px; 
+  display: block;
+  padding: 8px auto;
+  margin: auto;
+  width: 500px; 
 }
