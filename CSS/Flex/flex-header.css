@@ -2,8 +2,8 @@
     font-family: monospace;
     background: papayawhip;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
   }
   
   .logo {
@@ -16,23 +16,13 @@
     al
   }
   
-  
-  .left-links {
-    display: flex;
-    justify-content: flex-start;
-    align-items: left;
-  }
 
-    
-  .right-links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: right;
-  }
 
   ul {
     display: flex;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
     list-style-type: none;
   }
 
