@@ -1,11 +1,9 @@
 .container {
-    background: dodgerblue;
+    background: lightgrey;
     border: 4px solid midnightblue;
-    width: 400px;
-    height: 300px;
     display: flex;
-    
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 img {
@@ -13,15 +11,25 @@ img {
     height: 100px;
 }
 
-.Images-box {
+.info {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;    
+
 }
 
 
 .title {
     font-size: 36px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
   }
   
 
