@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
 }
 
 img {
@@ -18,6 +19,27 @@ ul {
     gap: 8px;
     list-style-type: none;
   }
+
+  .content {
+    
+    justify-content: center;
+ 
+ }
+
+.header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-left: 8px;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
 
 button {
   font-family: Roboto, sans-serif;
