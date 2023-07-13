@@ -23,23 +23,25 @@ ul {
   }
 
   .content {
-    
+    flex: 1;
+    display: flex;
+    align-items: center;
     justify-content: center;
- 
+    flex-direction: column;
  }
 
-.header {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   margin-left: 8px;
 
-}
-
+.header,
 .footer {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+
+
+.footer {
+   background: #fae5e5;
 
 }
 
@@ -62,5 +64,6 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  flex-shrink: 0px;
 }
 
