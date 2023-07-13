@@ -1,0 +1,29 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .header
+  .hero {
+    background-color: #1f2937;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  ul {
+    display: flex;
+    margin: 15px;
+    padding: 3px;
+    gap: 8px;
+    list-style-type: none;
+  }
