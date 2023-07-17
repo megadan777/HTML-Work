@@ -9,16 +9,21 @@ body {
   
   }
 
- /* .header
+ .header,
   .hero {
-
-  } */
+    background-color: #1f2937; 
+  }
 
   .header {
-    background-color: #1f2937;    
     display: flex;
     justify-content: space-between;
   }
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
 
 #head {
     color: #f9faf8;
@@ -40,4 +45,20 @@ body {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
+  }
+
+  .overview {
+    color: #f9faf8;
+  }
+
+  #short {
+    max-width: 200px;
+  }
+
+  button {
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    padding: 8px 24px;
   }
