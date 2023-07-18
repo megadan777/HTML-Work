@@ -31,6 +31,10 @@ body {
     font-size: 48px;
   }
 
+  h2 {
+    justify-content: center;
+  }
+
   ul, li {
     text-decoration: none;
     display: flex;
@@ -66,4 +70,15 @@ body {
   img {
     max-height: 300px;
     max-width: auto;
+  }
+
+
+  .img-info {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
