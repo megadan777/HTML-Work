@@ -68,7 +68,8 @@ body {
     padding: 8px 24px;
   }
 
-.img-head {
+.image1 {
+    float: right;
     max-width: auto;
     max-height: 300px;
 }
@@ -82,8 +83,7 @@ body {
 }
 
 .caption {
-    display: block
-    text-align: center;
+    display: block;
     width: 120px;
 }
 
