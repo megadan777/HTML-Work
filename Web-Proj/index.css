@@ -31,10 +31,8 @@ body {
     font-size: 48px;
   }
 
-  h2 {
-    display: flex;
-    justify-content: center;
-  }
+
+
 
   ul, li {
     text-decoration: none;
@@ -68,10 +66,15 @@ body {
     padding: 8px 24px;
   }
 
+.info {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
 .image1 {
-    float: right;
+    float: inline-end;
     max-width: auto;
-    max-height: 300px;
+    max-height: 250px;
 }
 
 .img-info {
@@ -82,12 +85,13 @@ body {
      flex-wrap: wrap;
 }
 
+
 .caption {
     display: block;
     width: 120px;
 }
 
-img {
+.image2 {
     width: 100px;
     height: 100px;
     background-color: grey;
@@ -95,4 +99,24 @@ img {
 
 .caption {
     display: block;
+}
+
+.quote {
+    display: block;
+    padding: 20px;
+    row-gap: 8px;
+    background-color: #e5e7eb;
+}
+
+#words {
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#reviewer {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: end;
 }
