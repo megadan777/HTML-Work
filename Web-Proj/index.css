@@ -1,11 +1,12 @@
 
 body {
     height: 100vh;
+    width: 100vw;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
   
   }
 
@@ -32,8 +33,6 @@ body {
   }
 
 
-
-
   ul, li {
     text-decoration: none;
     display: flex;
@@ -56,13 +55,15 @@ body {
 
   #short {
     max-width: 200px;
+    color: #f9faf8;
   }
 
   button {
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     background: #3882f6;
     color: white;
+    border: 2px solid rgb(0, 0, 0);
     padding: 8px 24px;
   }
 
@@ -112,11 +113,45 @@ body {
     font-size: 20px;
     font-style: italic;
     color: #1f2937;
+    max-width: 500px;
+    margin-left: 200px;
+    justify-items: center;
+    text-align: center;
 }
 
 #reviewer {
     font-size: 20px;
     font-weight: bolder;
     color: #1f2937;
-    text-align: end;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 80%;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+    background-color: #3882f6;
+}
+
+.text-action {
+    color: #f9faf8;
+}
+
+#call {
+    font-weight: bolder;
+    font-size: 20px;
+    max-width: 450px;
+}
+
+#sign-up {
+    font-size: 15px;
+    max-width: 300px;
 }
