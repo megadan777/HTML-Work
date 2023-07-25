@@ -26,6 +26,10 @@ body {
     padding-bottom: 40px;
 }
 
+.left-links {
+    justify-content: flex-start;
+}
+
 #head {
     color: #f9faf8;
     font-weight: bolder;
@@ -51,6 +55,7 @@ body {
 
   .overview {
     color: #f9faf8;
+    justify-content: flex-start;
   }
 
   #short {
@@ -75,7 +80,7 @@ body {
 .image1 {
     float: inline-end;
     max-width: auto;
-    max-height: 250px;
+    max-height: 400px;
 }
 
 .img-info {
@@ -154,4 +159,13 @@ body {
 #sign-up {
     font-size: 15px;
     max-width: 300px;
+}
+
+.footer {
+    background-color: #1f2937;
+    align-content: center;
+    padding: 3px;
+    margin-top: 10px;
+    color: #f9faf8;
+    text-align: center;
 }
