@@ -18,7 +18,7 @@ message = 'Hello!';
 
 message = 'World!';
 
-alert(message);*/
+alert(message);
 
 //Example 4
 
@@ -29,4 +29,11 @@ let message = 'Hello world!';
 message = hello;
 
 alert(hello);
-alert(message);
+alert(message);*/
+
+//Example 5
+
+let $ = 1;
+let _ = 49;
+
+alert($ + _);
