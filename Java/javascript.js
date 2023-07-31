@@ -1,5 +1,10 @@
-let message;
+/*let message = 'Hello';
 
-message = 'Hello'
+alert(message); */
 
-alert(message);
+
+//Example 2
+
+let user = 'John',
+  age = 25,
+  message = 'Hello';
