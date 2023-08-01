@@ -36,7 +36,7 @@ alert(message);
 let $ = 1;
 let _ = 49;
 
-alert($ + _);*/
+alert($ + _);
 
 //Example 6
 
@@ -47,4 +47,4 @@ const COLOR_ORANGE = "#FF7F00";
 
 // ...when we need to pick a color
 let color = COLOR_ORANGE;
-alert(color);
+alert(color);*/
