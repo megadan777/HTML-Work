@@ -1,7 +1,7 @@
-let = admin;
+/*let = admin;
 let = firstname;
 
-firstname = "John";
+firstname = 'John';
 
 admin = firstname;
 
@@ -9,7 +9,10 @@ alert( admin );
 
 let = planetEarth
 
-let = CurrentVisitor
+let = CurrentVisitor */
 
+const birthday = '18.04.1982';
 
+const age = someCode(birthday);
 
+alert(age));

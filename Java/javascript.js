@@ -48,3 +48,4 @@ const COLOR_ORANGE = "#FF7F00";
 // ...when we need to pick a color
 let color = COLOR_ORANGE;
 alert(color);*/
+
