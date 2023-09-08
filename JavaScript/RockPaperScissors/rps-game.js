@@ -11,12 +11,19 @@ Learning how to write JS that lets me play a 5rd game against the pc of Rock Pap
 */
 
 
+//begin with a function called getComputerChoice 
+//that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’
 
+function getComputerChoice() {
+   let myChoice = ["Rock", "Paper", "Scissors"];
+   let computerChoice = choices(Math.floor(Math.random() * choices.length))
+}
 
-function getComputerChoice{
-const computerSelection = "rock"
-const computerSelection = "paper"
-
+//Player choice
+function getPlayerChoice() {
+    let playerInput = prompt("type of choice...");
+    let result = playerInput.toLowerCase();
+    return result;
 }
 
 function playRound(playerSelection, computerSelection) {
