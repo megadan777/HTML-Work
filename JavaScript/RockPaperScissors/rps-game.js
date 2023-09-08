@@ -16,7 +16,7 @@ Learning how to write JS that lets me play a 5rd game against the pc of Rock Pap
 
 function getComputerChoice() {
    let choices = ["Rock", "Paper", "Scissors"];
-   let computerChoice = choices(Math.floor(Math.random() * choices.length));
+   let computerChoice = choices(Math.floor(Math.random() * 3));
    return computerChoice
 }
 
@@ -47,13 +47,35 @@ function playRound(playerSelection, computerSelection) {
       }
     }
   
-   
+const playerSelection = getPlayerChoice();
+const computerSelection = getComputerChoice();
+console.log(playRound(playerSelection, computerSelection));   
+
+
 function game() {
-    let playerScore = 0,
-    computerScore = 0;
+    let computerScore = 0,
+    playerScore = 0;
 }
 
+for (i = 0; i < 3; i++) {
+    const result = playRound(playerSelection, computerSelection);
+    if (result.includes("win")) {
+      playerScore++;
+      console.log(`computer: ${computerScore} | player: ${playerScore}`);
+    } else if (result.includes("lose")) {
+      computerScore++;
+      console.log(`computer: ${computerScore} | player: ${playerScore}`);
+    }
+    console.log(
+      "Final Results: Player: " + playerScore + " Computer: " + computerScore
+    );
+    if (playerScore > computerScore) {
+      console.log("You win the game!");
+    } else if (playerScore < computerScore) {
+      console.log("You lose the game.");
+    } else {
+      console.log("The game was an overall tie.");
+    }
+  }
 
-  console.log(playRound(playerSelection, computerSelection));
-
-  game();
+game();
