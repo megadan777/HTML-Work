@@ -15,8 +15,9 @@ Learning how to write JS that lets me play a 5rd game against the pc of Rock Pap
 //that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’
 
 function getComputerChoice() {
-   let myChoice = ["Rock", "Paper", "Scissors"];
-   let computerChoice = choices(Math.floor(Math.random() * choices.length))
+   let choices = ["Rock", "Paper", "Scissors"];
+   let computerChoice = choices(Math.floor(Math.random() * choices.length));
+   return computerChoice
 }
 
 //Player choice
@@ -26,10 +27,33 @@ function getPlayerChoice() {
     return result;
 }
 
+//Playing 5 rounds
 function playRound(playerSelection, computerSelection) {
     // your code here!
-  }
+    if (playerSelection === computerSelection) {
+        return "IT'S A TIE";
+    } else if (playerSelection === "rock" && computerSelection === "paper") {
+        return `You lose! paper beats rock`;
+      } else if (playerSelection === "rock" && computerSelection === "scissors") {
+        return `You win! rock beats scissors`;
+      } else if (playerSelection === "paper" && computerSelection === "scissors") {
+        return `You lose!scissors beats paper`;
+      } else if (playerSelection === "paper" && computerSelection === "rock") {
+        return `You win! paper beats rock`;
+      } else if (playerSelection === "scissors" && computerSelection === "rock") {
+        return `You lose! rock beats scissors`;
+      } else if (playerSelection === "scissors" && computerSelection === "paper") {
+        return `You win! scissors beats paper`;
+      }
+    }
+  
    
-  const playerSelection = "rock";
-  const computerSelection = getComputerChoice();
+function game() {
+    let playerScore = 0,
+    computerScore = 0;
+}
+
+
   console.log(playRound(playerSelection, computerSelection));
+
+  game();
