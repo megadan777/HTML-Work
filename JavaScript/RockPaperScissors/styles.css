@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+.header-title {
+    display: flex;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+
+.btn {
+  font-size: 24px;
+  font-family: "Press Start 2P", cursive;
+  border: 2px solid #fff;
+  background-color: #000;
+  color: #fff;
+  padding: 16px 16px;
+  border-radius: 15%;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
