@@ -1,29 +1,24 @@
-const container = document.getElementById("container");
-let rows = document.getElementsByClassName("gridRow");
-let cells = document.getElementsByClassName("cell");
+let gridContainer = document.querySelector('.grid');
 
-//Default grid
-function defaultGrid() {
-    makeRows(16);
-    makeColumns(16);
+let rowtot = 16;
+let celltot = rowtot * rowtot;
+
+gridContainer.style.display = 'grid';
+gridContainer.style.gridTemplateRows = `repeat(${rowtot}, 1fr)`;
+gridContainer.style.gridTemplateColumns = `repeat(${rowtot}, 1fr)`;
+
+let row = 1;
+let column = 1;
+for (let i = 1; i <= celltot; i++) {
+  let cell = document.createElement('div');
+  cell.style.border = '1px solid black';
+  cell.style.gridRow = row;
+  cell.style.gridColumn = column;
+  cell.textContent = i;
+  column += 1;
+  if (column === rowtot + 1) {
+    row += 1;
+    column = 1;
+  }
+  gridContainer.appendChild(cell);
 }
-
-function makeRows(rowNum) {
-
-    // Creates rows
-    for (r = 0; r < rowNum; r++) {
-        let row = document.createElement("div");
-        container.appendChild(row).className = "gridRow";
-    };
-};
-
-// Creates columns
-function makeColumns(cellNum) {
-    for (i = 0; i < rows.length; i++) {
-        for (j = 0; j < cellNum; j++) {
-            let newCell = document.createElement("div");
-            rows[j].appendChild(newCell).className = "cell";
-        };
-
-    };
-};
