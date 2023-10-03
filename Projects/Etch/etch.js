@@ -33,3 +33,8 @@ document.querySelector("div").addEventListener(
 		document.querySelector("div").style.background
 			= color[(Math.floor(Math.random() * color.length))];
 	})
+
+    const button = document.querySelector('button');
+    button.addEventListener('click', onButtonClick);
+
+let prompt = button("Please enter your grid size");
